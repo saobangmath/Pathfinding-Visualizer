@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",
+    "gogo" : "node public/utils/read_map.js  --scripts-prepend-node-path=auto",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "watchify /home/clement/Documents/Fullstack_Academy/Projects/Pathfinding_Algorithms/public/browser/board.js -o /home/clement/Documents/Fullstack_Academy/Projects/Pathfinding_Algorithms/public/browser/bundle.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "nodemon": "^2.0.12"
   }
 }

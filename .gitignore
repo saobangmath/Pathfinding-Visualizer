@@ -1,2 +1,4 @@
 node_modules
 stuff.js
+package-lock.json
+.idea/
